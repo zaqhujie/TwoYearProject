@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="entity.Admin" table="Admin" schema="dbo" catalog="demo">
+        <id name="aid">
+            <column name="Aid" sql-type="int"/>
+        </id>
+        <property name="ausername">
+            <column name="Ausername" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+        <property name="apassword">
+            <column name="Apassword" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

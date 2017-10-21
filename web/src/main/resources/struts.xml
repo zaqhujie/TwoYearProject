@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <package name="xxx" extends="struts-default">
+        <action name="Admin*" class="action.LoginAction" method="{1}">
+            <result name="login-success">/index.jsp</result>
+            <result name="login-default">/error.jsp</result>
+            <result name="add-success">/index.jsp</result>
+            <result name="add-default">/error.jsp</result>
+            <result name="queryAll-success">/list.jsp</result>
+            <result name="queryById-success">/AdminInfo.jsp</result>
+            <result name="delete-success">/list.jsp</result>
+            <allowed-methods>login,register,queryAll,queryAdminById,deleteAdmin</allowed-methods>
+        </action>
+    </package>
+</struts>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="entity.Member" table="Member" schema="dbo" catalog="demo">
+        <id name="mid">
+            <column name="Mid" sql-type="int"/>
+        </id>
+        <property name="husername">
+            <column name="Husername" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+        <property name="hpassword">
+            <column name="Hpassword" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+        <property name="hpicture">
+            <column name="Hpicture" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+        <property name="hname">
+            <column name="Hname" sql-type="varchar(50)" length="50" not-null="true"/>
+        </property>
+        <property name="hage">
+            <column name="Hage" sql-type="int" not-null="true"/>
+        </property>
+        <property name="hsex">
+            <column name="Hsex" sql-type="varchar(20)" length="20" not-null="true"/>
+        </property>
+        <property name="hstate">
+            <column name="Hstate" sql-type="varchar(1000)" length="1000" not-null="true"/>
+        </property>
+        <property name="htime">
+            <column name="Htime" sql-type="int" not-null="true"/>
+        </property>
+        <property name="hphone">
+            <column name="Hphone" sql-type="varchar(20)" length="20" not-null="true"/>
+        </property>
+        <property name="hmoney">
+            <column name="Hmoney" sql-type="float" precision="-1" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

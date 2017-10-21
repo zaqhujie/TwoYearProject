@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="entity.OrderInfo" table="OrderInfo" schema="dbo" catalog="demo">
+        <id name="oid">
+            <column name="Oid" sql-type="int"/>
+        </id>
+        <property name="orderTime">
+            <column name="OrderTime" sql-type="date" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>
