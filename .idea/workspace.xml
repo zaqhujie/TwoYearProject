@@ -1,145 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18d8e136-6d45-4b8c-8d3d-23c3d048d268" name="Default" comment="This is my Project">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/dataSources/72cd28d4-5bbf-4be6-85cf-3d5d330a68af/_metadata_/metadata" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/dataSources/72cd28d4-5bbf-4be6-85cf-3d5d330a68af/_metadata_/metadata.keystream" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/dataSources/72cd28d4-5bbf-4be6-85cf-3d5d330a68af/_metadata_/metadata.keystream.len" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/dataSources/72cd28d4-5bbf-4be6-85cf-3d5d330a68af/_metadata_/metadata.len" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/dataSources/72cd28d4-5bbf-4be6-85cf-3d5d330a68af/_metadata_/metadata.values.at" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/dataSources/72cd28d4-5bbf-4be6-85cf-3d5d330a68af/_metadata_/metadata_i" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/dataSources/72cd28d4-5bbf-4be6-85cf-3d5d330a68af/_metadata_/metadata_i.len" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/dataSources/db7d60b8-5be6-4ef2-9155-089057e2b403/_metadata_/metadata" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/dataSources/db7d60b8-5be6-4ef2-9155-089057e2b403/_metadata_/metadata.keystream" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/dataSources/db7d60b8-5be6-4ef2-9155-089057e2b403/_metadata_/metadata.keystream.len" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/dataSources/db7d60b8-5be6-4ef2-9155-089057e2b403/_metadata_/metadata.len" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/dataSources/db7d60b8-5be6-4ef2-9155-089057e2b403/_metadata_/metadata.values.at" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/dataSources/db7d60b8-5be6-4ef2-9155-089057e2b403/_metadata_/metadata_i" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/dataSources/db7d60b8-5be6-4ef2-9155-089057e2b403/_metadata_/metadata_i.len" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/lib/antlr-2.7.7.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/lib/classmate-1.3.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/lib/dom4j-1.6.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/lib/hibernate-commons-annotations-5.0.1.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/lib/hibernate-core-5.2.11.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/lib/jandex-2.0.3.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/lib/javassist-3.20.0-GA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/lib/jboss-logging-3.3.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/lib/commons-fileupload.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/lib/commons-io.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/lib/commons-lang.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/lib/freemarker.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/lib/ognl.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/lib/struts2-annotations.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/lib/struts2-core.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/artifacts/web_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/artifacts/web_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/dataSources.local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/dataSources/72cd28d4-5bbf-4be6-85cf-3d5d330a68af.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/dataSources/72cd28d4-5bbf-4be6-85cf-3d5d330a68af/storage.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/dataSources/db7d60b8-5be6-4ef2-9155-089057e2b403.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/dataSources/db7d60b8-5be6-4ef2-9155-089057e2b403/storage.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Hibernate_5_2_11_5_2_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__com_fasterxml_classmate_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__com_microsoft_sqlserver_sqljdbc4_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__ognl_ognl_3_1_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__org_apache_struts_struts2_core_2_5_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__org_apache_struts_struts2_junit_plugin_2_5_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_10_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__org_springframework_spring_aop_4_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__org_springframework_spring_beans_4_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__org_springframework_spring_context_4_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__org_springframework_spring_core_4_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__org_springframework_spring_expression_4_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Maven__org_springframework_spring_test_4_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/libraries/Struts_2_2_5_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/TwoYearProject.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/dao/dao.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/dao/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/dao/src/main/java/dao/AdminDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/dao/src/main/java/dao/LoginDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/dao/src/test/java/AdminDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/dao/src/test/java/LoginDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/entity.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/src/main/java/entity/Admin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/src/main/java/entity/Member.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/src/main/java/entity/MoviceDoc.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/src/main/java/entity/Movie.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/src/main/java/entity/OrderInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/src/main/java/entity/WordMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/src/main/resources/Admin.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/src/main/resources/Member.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/src/main/resources/MoviceDoc.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/src/main/resources/Movie.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/src/main/resources/OrderInfo.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/src/main/resources/WordMessage.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/entity/src/main/resources/hibernate.cfg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/service/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/service/service.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/service/src/main/java/service/AdminService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/util/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/util/src/main/java/util/JDBCUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/util/util.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/src/main/java/action/LoginAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/src/main/resources/struts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/src/test/java/test/LoginActionTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/web.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/web/AdminInfo.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/web/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/web/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/web/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/web/css/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/web/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/web/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/web/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/web/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/web/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/web/error.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/web/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/web/js/Particleground.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/web/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/web/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/web/js/jquery-1.12.4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/web/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/web/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/web/js/verificationNumbers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/web/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/web/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TwoYearProject/web/web/register.jsp" />
+    <list default="true" id="18d8e136-6d45-4b8c-8d3d-23c3d048d268" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TwoYearProject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../TwoYearProject/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../TwoYearProject/out/" />
     <ignored path="$PROJECT_DIR$/../TwoYearProject/target/" />
@@ -798,8 +661,16 @@
       <workItem from="1508480411997" duration="2419000" />
       <workItem from="1508484431491" duration="600000" />
       <workItem from="1508487790071" duration="437000" />
-      <workItem from="1508552296395" duration="244000" />
+      <workItem from="1508552296395" duration="331000" />
     </task>
+    <task id="LOCAL-00001" summary="This is my Project">
+      <created>1508552578903</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1508552578904</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -835,7 +706,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37858000" />
+    <option name="totallyTimeSpent" value="37945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
