@@ -7,6 +7,7 @@
 <title>错误页面</title>
 </head>
 <body>
-	
+	<h1>账号或者密码错误，请重新输入！</h1>
+    <a href="login.jsp">登陆页面</a>
 </body>
 </html>

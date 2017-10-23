@@ -1,9 +1,6 @@
 package entity;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Admin {
@@ -13,6 +10,7 @@ public class Admin {
 
     @Id
     @Column(name = "Aid", nullable = false)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getAid() {
         return aid;
     }

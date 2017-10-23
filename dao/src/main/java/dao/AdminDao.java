@@ -6,7 +6,6 @@ import org.hibernate.Transaction;
 import org.hibernate.query.Query;
 import util.JDBCUtil;
 
-import javax.swing.text.html.parser.Entity;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -69,7 +68,8 @@ public class AdminDao {
         Query q = s.createQuery(hql);
         q.setParameter(0,ausername);
         q.setParameter(1,apassword);
-        List<Admin> list = q.list();
+
+        List<Admin> list = q.getResultList();
         Admin admin = null ;
         if(!list.isEmpty()){
             for (Admin a : list) {

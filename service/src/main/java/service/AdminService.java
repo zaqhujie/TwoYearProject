@@ -1,22 +1,14 @@
 package service;
 
 import dao.AdminDao;
-import dao.LoginDao;
 import entity.Admin;
 
 import java.util.List;
 
 public class AdminService {
-    public String addAdmin(Admin a){
-        String s = null ;
+    public void addAdmin(Admin a){
         AdminDao dao = new AdminDao();
-        Admin admin = dao.queryAdminById(a.getAid());
-        if(admin==null){
-            dao.addAdmin(a);
-        }else{
-            s = "此用户已经存在" ;
-        }
-        return s ;
+        dao.addAdmin(a);
     }
 
     public String deleteAdmin(int aid){
@@ -31,16 +23,9 @@ public class AdminService {
         return s ;
     }
 
-    public String updateAdmin(Admin a){
-        String s = null ;
+    public void updateAdmin(Admin a){
         AdminDao dao = new AdminDao();
-        Admin admin = dao.queryAdminById(a.getAid());
-        if(admin==null){
-            s = "此用户不存在" ;
-        }else{
-            dao.updateAdmin(a);
-        }
-        return s ;
+        dao.updateAdmin(a);
     }
 
     public List<Admin> queryAllAdmin(){
@@ -55,7 +40,7 @@ public class AdminService {
         return a ;
     }
 
-    public Admin queryAdmin(String ausername,String aupassword){
+    public Admin queryAdmin(String ausername, String aupassword){
         AdminDao dao = new AdminDao();
         Admin a = dao.queryAdmin(ausername,aupassword);
         Admin admin = null ;

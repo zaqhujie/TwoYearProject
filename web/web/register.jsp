@@ -7,6 +7,10 @@
 <title>注册页面</title>
 </head>
 <body>
-	
+	<form action="Adminregister.action">
+        账号：<input type="text" placeholder="账号" name="ausername"/>
+        密码：<input type="text" placeholder="密码" name="apassword"/>
+        <input type="submit" value="注册"/>
+    </form>
 </body>
 </html>

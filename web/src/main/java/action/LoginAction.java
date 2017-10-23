@@ -4,7 +4,6 @@ import entity.Admin;
 import org.apache.struts2.ServletActionContext;
 import service.AdminService;
 
-import javax.servlet.Servlet;
 import java.util.List;
 
 public class LoginAction {
@@ -49,22 +48,21 @@ public class LoginAction {
     public String login(){
         AdminService service = new AdminService();
         Admin a = service.queryAdmin(ausername,apassword);
-        if(a!=null){
+        if(a==null){
+            return "login-default";
+        }else{
             ServletActionContext.getRequest().setAttribute("admin",a);
             return "login-success" ;
-        }else{
-            return "login-default";
         }
     }
 
     public String register(){
+        Admin a = new Admin();
+        a.setAusername(ausername);
+        a.setApassword(apassword);
         AdminService service = new AdminService();
-        String s = service.addAdmin(a);
-        if(s==null){
-            return "add-success" ;
-        }else{
-            return "add-default" ;
-        }
+        service.addAdmin(a);
+        return "add-success" ;
     }
 
     public String queryAll(){
@@ -77,8 +75,14 @@ public class LoginAction {
     public String queryAdminById(){
         AdminService service = new AdminService();
         Admin a = service.queryAdminById(aid);
-        ServletActionContext.getRequest().setAttribute("admin",a);
+        ServletActionContext.getRequest().setAttribute("a",a);
         return "queryById-success" ;
+    }
+
+    public String ajaxQueryAdmin(){
+        AdminService service = new AdminService();
+        a = service.queryAdminById(aid);
+        return "ajax-success" ;
     }
 
     public String deleteAdmin() {
@@ -89,12 +93,12 @@ public class LoginAction {
 
     public String updateAdmin(){
         AdminService service = new AdminService();
-        String s = service.updateAdmin(a);
-        if(s==null){
-            return "update-default" ;
-        }else{
-            return "update-success" ;
-        }
+        Admin a = new Admin();
+        a.setAid(aid);
+        a.setAusername(ausername);
+        a.setApassword(apassword);
+        service.updateAdmin(a);
+        return "update-success" ;
     }
 
 }

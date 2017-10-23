@@ -5,7 +5,7 @@
         "http://struts.apache.org/dtds/struts-2.5.dtd">
 
 <struts>
-    <package name="xxx" extends="struts-default">
+    <package name="xxx" extends="struts-default,json-default">
         <action name="Admin*" class="action.LoginAction" method="{1}">
             <result name="login-success">/index.jsp</result>
             <result name="login-default">/error.jsp</result>
@@ -13,8 +13,11 @@
             <result name="add-default">/error.jsp</result>
             <result name="queryAll-success">/list.jsp</result>
             <result name="queryById-success">/AdminInfo.jsp</result>
-            <result name="delete-success">/list.jsp</result>
-            <allowed-methods>login,register,queryAll,queryAdminById,deleteAdmin</allowed-methods>
+            <result name="delete-success" type="redirectAction">AdminqueryAll</result>
+            <result name="update-success" type="redirectAction">AdminqueryAll</result>
+            <result name="ajax-success" type="json"><param name="a"></param></result>
+            <result name="update-dafault">/error.jsp</result>
+            <allowed-methods>login,register,queryAll,queryAdminById,deleteAdmin,updateAdmin,ajaxQueryAdmin</allowed-methods>
         </action>
     </package>
 </struts>

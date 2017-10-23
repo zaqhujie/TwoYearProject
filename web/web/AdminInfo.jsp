@@ -8,10 +8,11 @@
 <title>会员信息页面</title>
 </head>
 <body>
-    <form action="">
-        管理员ID：<input type="text" value="${requestScope.a.aid}" readonly/>
-        管理员账号：<input type="text" value="${requestScope.a.ausername}" readonly/>
-        管理员密码：<input type="text" value="${requestScope.a.apassword}" readonly/>
+    <form action="AdminupdateAdmin.action">
+        管理员ID：<input type="text" value="${requestScope.a.aid}" name="aid" readonly/><br/>
+        管理员账号：<input type="text" value="${requestScope.a.ausername}" name="ausername" readonly/><br/>
+        管理员密码：<input type="text" value="${requestScope.a.apassword}" name="apassword"/>
+        <input type="submit" value="修改"/>
     </form>
 </body>
 </html>
