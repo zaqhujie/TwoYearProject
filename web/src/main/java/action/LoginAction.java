@@ -1,9 +1,13 @@
 package action;
 
+import com.opensymphony.xwork2.ActionContext;
+import dao.AdminDao;
 import entity.Admin;
+import entity.Page;
 import org.apache.struts2.ServletActionContext;
 import service.AdminService;
 
+import java.io.PrintWriter;
 import java.util.List;
 
 public class LoginAction {
@@ -11,6 +15,26 @@ public class LoginAction {
     private String ausername ;
     private String apassword ;
     private Admin a ;
+
+    private int page ;
+
+    private int no ;
+
+    public int getNo() {
+        return no;
+    }
+
+    public void setNo(int no) {
+        this.no = no;
+    }
+
+    public int getPage() {
+        return page;
+    }
+
+    public void setPage(int page) {
+        this.page = page;
+    }
 
     public int getAid() {
         return aid;
@@ -99,6 +123,26 @@ public class LoginAction {
         a.setApassword(apassword);
         service.updateAdmin(a);
         return "update-success" ;
+    }
+
+
+    public String test(){
+        System.out.println(no);
+        AdminService service = new AdminService();
+        int pageNo = 0 ;
+        if(no==0){
+            pageNo = 1 ;
+        }else{
+            pageNo = no ;
+        }
+        int pageSize= 3 ; //页面大小
+        int totalCount=service.getTotalCount();
+        Page page=new Page(pageSize, pageNo, totalCount);
+        List<Admin> list = service.findPage(page);
+        ServletActionContext.getRequest().setAttribute("list",list);
+        ServletActionContext.getRequest().setAttribute("page",page);
+        System.out.println(page);
+        return "queryAll-success" ;
     }
 
 }

@@ -1,11 +1,15 @@
 package dao;
 
 import entity.Admin;
+import entity.Page;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
 import util.JDBCUtil;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -77,5 +81,48 @@ public class AdminDao {
             }
         }
         return admin ;
+    }
+
+
+    public List<Admin> findPage(Page page) {
+        //1.获取session
+        Session session=JDBCUtil.getSessionFactory().openSession();
+
+        //2.定义查询最大记录数的hql
+        String hql="from Admin";
+
+        //3.定义查询最大记录数的Query对象
+        Query querypage=session.createQuery(hql);
+
+        //4.查询最大记录数的数据
+        querypage.setMaxResults(page.getPagesize());
+
+        //5.确定查询起点
+        querypage.setFirstResult(page.getStartrow());
+
+        //6.分页查询
+        List<Admin> list=querypage.list();
+
+        //7.关闭session
+        session.close();
+
+        return list;
+    }
+
+    public int getTotalCount() {
+        //1.获取session
+        Session session=JDBCUtil.getSessionFactory().openSession();
+
+        //2.定义查询总条数hql语句
+        String hqlcount="select count(*) from Admin";
+
+        //3.利用Session创建Query对象
+        Query querycount=session.createQuery(hqlcount);
+
+        //4.获取总条数(返回单行数据uniqueResult())
+        Integer totalCount=Integer.parseInt(querycount.uniqueResult().toString());
+        //5.释放资源
+        session.close();
+        return totalCount;
     }
 }

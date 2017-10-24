@@ -14,7 +14,7 @@
 <body>
     <input type="text" name="findVal" id="text"/>
     <input type="button" value="搜索" id="btn"/>
-    <a href="AdminqueryAll.action">回到列表</a>
+    <a href="Admintest.action">回到列表</a>
 	<table border="1px solid black" id="tbl">
         <tr>
             <th>管理员id</th>
@@ -34,6 +34,32 @@
             </tr>
         </c:forEach>
     </table>
+    <div>
+        第${requestScope.page.pageno}/${requestScope.page.totalpage}页&nbsp;&nbsp;
+        <a href="Admintest.action">首页</a>
+        <c:choose>
+            <c:when test="${requestScope.page.pageno > 1}">
+                <a href="Admintest.action?no=${requestScope.page.pageno-1 }">上一页</a>
+                <a href="javascript:alert(${requestScope.page.pageno});"
+            </c:when>
+            <c:otherwise>
+                <a href="javascript:alert('已经是第一页了,没有上一页!');">上一页</a>
+            </c:otherwise>
+        </c:choose>
+        <c:choose>
+            <c:when test="${requestScope.page.pageno < requestScope.page.totalpage}">
+                <a href="Admintest.action?no=${requestScope.page.pageno+1}">下一页</a>
+            </c:when>
+            <c:otherwise>
+                <a href="javascript:alert('已经是最有一页了,没有下一页!');">下一页</a>
+            </c:otherwise>
+        </c:choose>
+
+        <a href="Admintest.action?no=${requestScope.page.totalpage}">末页</a>
+        &nbsp;&nbsp;
+        共${requestScope.page.totalcount}条
+
+    </div>
     <a href="index.jsp">回到首页</a>
     <a href="register.jsp">注册页面</a>
     <a href="login.jsp">登录页面</a>

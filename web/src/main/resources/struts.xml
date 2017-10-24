@@ -17,7 +17,7 @@
             <result name="update-success" type="redirectAction">AdminqueryAll</result>
             <result name="ajax-success" type="json"><param name="a"></param></result>
             <result name="update-dafault">/error.jsp</result>
-            <allowed-methods>login,register,queryAll,queryAdminById,deleteAdmin,updateAdmin,ajaxQueryAdmin</allowed-methods>
+            <allowed-methods>login,register,queryAll,queryAdminById,deleteAdmin,updateAdmin,ajaxQueryAdmin,test</allowed-methods>
         </action>
     </package>
 </struts>

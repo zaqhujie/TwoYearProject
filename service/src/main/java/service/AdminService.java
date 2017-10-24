@@ -2,6 +2,7 @@ package service;
 
 import dao.AdminDao;
 import entity.Admin;
+import entity.Page;
 
 import java.util.List;
 
@@ -49,5 +50,15 @@ public class AdminService {
         }else{
             return a ;
         }
+    }
+
+    public List<Admin> findPage(Page page) {
+        AdminDao dao = new AdminDao();
+        return dao.findPage(page);
+    }
+
+    public int getTotalCount() {
+        AdminDao dao = new AdminDao();
+        return dao.getTotalCount();
     }
 }
