@@ -31,5 +31,20 @@
             <result name="login-success">/index.jsp</result>
             <result name="login-default">/login.jsp</result>
         </action>
+
+        <action name="fileDownload" class="action.FileDownloadAction">
+            <!--
+            type一定要定义成stream类型，告诉action这是文件下载的result，
+            result元素里面一般还有param子元素，这个是用来设定文件下载时的参数，
+            inputName这个属性就是得到action中的文件输入流，
+            名字一定要和action中的输入流属性名字相同，-->
+            <result name="success" type="stream">
+                <param name="contentDisposition">attachment;filename="test.txt"</param>
+                <param name="inputName">downloadFile</param>
+            </result>
+        </action>
+        <action name="fileUpload" class="action.FileUploadAction">
+            <result name="success">/index.jsp</result>
+        </action>
     </package>
 </struts>

@@ -35,6 +35,8 @@
             <li><a href="Admintest.action">会员列表</a></li>
             <li><a href="register.jsp">注册</a></li>
             <li><a href="Admintest.action">测试</a></li>
+            <li><a href="uploadAndDownload.jsp">文件上传下载</a></li>
+            <li><a href="fileDownload?downloadFile=text.txt">text.txt</a></li>
           </ul>
         </div>
       </div>
