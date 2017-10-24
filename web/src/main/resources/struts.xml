@@ -19,5 +19,17 @@
             <result name="update-dafault">/error.jsp</result>
             <allowed-methods>login,register,queryAll,queryAdminById,deleteAdmin,updateAdmin,ajaxQueryAdmin,test</allowed-methods>
         </action>
+
+        <action name="createImageAction" class="action.CreateImageAction">
+            <result name="success" type="stream">
+                <param name="contentType">image/jpeg</param>
+                <param name="inputName">inputStream</param>
+            </result>
+        </action>
+
+        <action name="loginValidateAction" class="action.LoginValidateAction">
+            <result name="login-success">/index.jsp</result>
+            <result name="login-default">/login.jsp</result>
+        </action>
     </package>
 </struts>

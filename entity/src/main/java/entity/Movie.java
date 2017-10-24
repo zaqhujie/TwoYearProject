@@ -77,17 +77,33 @@ public class Movie {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
 
         Movie movie = (Movie) o;
 
-        if (did != movie.did) return false;
-        if (dshowTime != null ? !dshowTime.equals(movie.dshowTime) : movie.dshowTime != null) return false;
-        if (dname != null ? !dname.equals(movie.dname) : movie.dname != null) return false;
-        if (dtime != null ? !dtime.equals(movie.dtime) : movie.dtime != null) return false;
-        if (dtype != null ? !dtype.equals(movie.dtype) : movie.dtype != null) return false;
-        if (dprice != null ? !dprice.equals(movie.dprice) : movie.dprice != null) return false;
+        if (did != movie.did) {
+            return false;
+        }
+        if (dshowTime != null ? !dshowTime.equals(movie.dshowTime) : movie.dshowTime != null) {
+            return false;
+        }
+        if (dname != null ? !dname.equals(movie.dname) : movie.dname != null) {
+            return false;
+        }
+        if (dtime != null ? !dtime.equals(movie.dtime) : movie.dtime != null) {
+            return false;
+        }
+        if (dtype != null ? !dtype.equals(movie.dtype) : movie.dtype != null) {
+            return false;
+        }
+        if (dprice != null ? !dprice.equals(movie.dprice) : movie.dprice != null) {
+            return false;
+        }
 
         return true;
     }
