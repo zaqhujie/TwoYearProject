@@ -11,6 +11,7 @@ import java.util.List;
 
 
 public class AdminDao {
+
     public void addAdmin(Admin a){
         Session s = JDBCUtil.getSessionFactory().openSession();
         Transaction t = s.getTransaction();
