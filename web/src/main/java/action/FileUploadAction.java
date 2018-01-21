@@ -60,7 +60,7 @@ public class FileUploadAction extends ActionSupport {
     @Override
     public String execute() throws Exception
     {
-        String root = ServletActionContext.getServletContext().getRealPath("/WEB-INF");
+        String root = ServletActionContext.getServletContext().getRealPath("/upload");
 
         InputStream is = new FileInputStream(file);
 
@@ -68,7 +68,7 @@ public class FileUploadAction extends ActionSupport {
 
         System.out.println("fileFileName: " + fileFileName);
 
-    // 因为file是存放在临时文件夹的文件，我们可以将其文件名和文件路径打印出来，看和之前的fileFileName是否相同
+    // 因为file是存放在临时文件夹的文件，可以将其文件名和文件路径打印出来，看和之前的fileFileName是否相同
         System.out.println("file: " + file.getName());
         System.out.println("file: " + file.getPath());
 

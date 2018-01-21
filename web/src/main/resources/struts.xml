@@ -13,8 +13,8 @@
             <result name="add-default">/error.jsp</result>
             <result name="queryAll-success">/list.jsp</result>
             <result name="queryById-success">/AdminInfo.jsp</result>
-            <result name="delete-success" type="redirectAction">AdminqueryAll</result>
-            <result name="update-success" type="redirectAction">AdminqueryAll</result>
+            <result name="delete-success" type="redirectAction">Admintest</result>
+            <result name="update-success" type="redirectAction">Admintest</result>
             <result name="ajax-success" type="json"><param name="a"></param></result>
             <result name="update-dafault">/error.jsp</result>
             <allowed-methods>login,register,queryAll,queryAdminById,deleteAdmin,updateAdmin,ajaxQueryAdmin,test</allowed-methods>
@@ -29,7 +29,7 @@
 
         <action name="loginValidateAction" class="action.LoginValidateAction">
             <result name="login-success">/index.jsp</result>
-            <result name="login-default">/login.jsp</result>
+            <result name="input">/login.jsp</result>
         </action>
 
         <action name="fileDownload" class="action.FileDownloadAction">
@@ -45,6 +45,9 @@
         </action>
         <action name="fileUpload" class="action.FileUploadAction">
             <result name="success">/index.jsp</result>
+        </action>
+        <action name="movieAction" class="action.MovieAction">
+            <result name="queryMoive-success">/moive.jsp</result>
         </action>
     </package>
 </struts>

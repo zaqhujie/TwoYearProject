@@ -1,5 +1,5 @@
 $(function(){
-    $("input[name='ausername']").blur(function () { //失去焦点
+    $("#username").blur(function () { //失去焦点
         var namestr = $(this).val();
         var regstr = /^[0-9A-Za-z]{4,10}$/;
         if (!regstr.test(namestr)) {
@@ -9,7 +9,7 @@ $(function(){
         return true;
     })
 
-    $("input[name='ausername']").focus(function () { //失去焦点
+    $("#username").focus(function () { //获得焦点
       $("#tips").val("");
     })
 })

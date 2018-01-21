@@ -56,4 +56,10 @@ $(document).ready(function () {
             $(".ad .num li").eq(i).addClass("on").siblings().removeClass("on");
         }
     }
+
+    $(document).ready(function(){
+        $("#showhtml").click(function(){
+            $('#showed').load('show.html');
+        })
+    })
 });

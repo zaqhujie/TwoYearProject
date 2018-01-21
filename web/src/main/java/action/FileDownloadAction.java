@@ -9,7 +9,7 @@ public class FileDownloadAction extends ActionSupport
 {
     public InputStream getDownloadFile()
     {
-        return ServletActionContext.getServletContext().getResourceAsStream("WEB-INF/test.txt");
+        return ServletActionContext.getServletContext().getResourceAsStream("upload/test.txt");
     }
 
     @Override
