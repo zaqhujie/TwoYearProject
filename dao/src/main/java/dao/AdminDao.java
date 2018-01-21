@@ -8,8 +8,6 @@ import util.JDBCUtil;
 
 import java.util.ArrayList;
 import java.util.List;
-
-
 public class AdminDao {
     public void addAdmin(Admin a){
         Session s = JDBCUtil.getSessionFactory().openSession();
